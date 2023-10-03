@@ -40,7 +40,4 @@ section {
     background: url("/background.jpg") no-repeat;
     background-size: cover;
   }
-  main {
-    width: 100%;
-  }
 }
