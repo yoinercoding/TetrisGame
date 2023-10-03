@@ -54,7 +54,7 @@ const PIECES = [
   [
     [0, 1],
     [0, 1],
-    [0, 1]
+    [1, 1]
   ]
 ]
 
@@ -105,6 +105,8 @@ function draw() {
       }
     })
   })
+
+  $score.innerText = score
 }
 
 //event keyboard
