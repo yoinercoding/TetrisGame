@@ -19,6 +19,8 @@ body {
   padding: 0;
   display: grid;
   place-content: center;
+  background: url("public/background.jpg") no-repeat center;
+  background-size: cover;
 }
 
 section {
@@ -31,4 +33,14 @@ section {
   display: grid;
   font-size: 48px;
   place-content: center;
+}
+
+@media (max-width: 500px) {
+  body {
+    background: url("./public/background.jpg") no-repeat center;
+    background-size: cover;
+  }
+  main {
+    width: 100%;
+  }
 }
