@@ -6,12 +6,12 @@ const canvas = document.querySelector('canvas')
 const context = canvas.getContext('2d')
 const $score = document.querySelector('span')
 
-let score = 0
-
 canvas.width = BLOCK_SIZE * BOARD_WIDTH
 canvas.height = BLOCK_SIZE * BOARD_HEIGHT
 
 context.scale(BLOCK_SIZE, BLOCK_SIZE)
+
+let score = 0
 
 //board
 const board = createBoard(BOARD_WIDTH, BOARD_HEIGHT)
