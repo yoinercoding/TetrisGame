@@ -105,8 +105,6 @@ function draw() {
       }
     })
   })
-
-  $score.innerText = score
 }
 
 //event keyboard
