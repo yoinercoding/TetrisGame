@@ -1,7 +1,7 @@
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
-  font-weight: 400;
+  font-weight: 700;
 
   color-scheme: dark light;
   background-color: #242424;
@@ -14,11 +14,12 @@
 }
 
 body {
+  height: 100vh;
   margin : 0;
   padding: 0;
   display: grid;
   place-content: center;
-  background: url("/background.jpg");
+  background-image: url("/background.jpg") no-repeat center;
 }
 
 section {
@@ -33,9 +34,10 @@ section {
   place-content: center;
 }
 
-@media (max-width: 2000px) {
+@media (max-width: 2500px) {
   body {
-    background: url("/background.jpg");
+    height: 100vh;
+    background-image: url("/background.jpg");
     background-size: cover;
   }
 }
